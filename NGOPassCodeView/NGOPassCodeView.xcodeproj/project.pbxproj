@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79FCDDB61B416E0D00B040F5 /* NGOPassCodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79FCDDB51B416E0D00B040F5 /* NGOPassCodeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79FCDDBC1B416E0D00B040F5 /* NGOPassCodeView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FCDDB01B416E0D00B040F5 /* NGOPassCodeView.framework */; };
+		79FCDDC31B416E0D00B040F5 /* NGOPassCodeViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FCDDC21B416E0D00B040F5 /* NGOPassCodeViewTests.swift */; };
+		79FCDDD61B416EE400B040F5 /* NGOPassCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FCDDD51B416EE400B040F5 /* NGOPassCodeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79FCDDBD1B416E0D00B040F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79FCDDA71B416E0D00B040F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79FCDDAF1B416E0D00B040F5;
+			remoteInfo = NGOPassCodeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79FCDDB01B416E0D00B040F5 /* NGOPassCodeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NGOPassCodeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79FCDDB41B416E0D00B040F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79FCDDB51B416E0D00B040F5 /* NGOPassCodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGOPassCodeView.h; sourceTree = "<group>"; };
+		79FCDDBB1B416E0D00B040F5 /* NGOPassCodeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NGOPassCodeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79FCDDC11B416E0D00B040F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79FCDDC21B416E0D00B040F5 /* NGOPassCodeViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NGOPassCodeViewTests.swift; sourceTree = "<group>"; };
+		79FCDDD51B416EE400B040F5 /* NGOPassCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NGOPassCodeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79FCDDAC1B416E0D00B040F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FCDDB81B416E0D00B040F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FCDDBC1B416E0D00B040F5 /* NGOPassCodeView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79FCDDA61B416E0D00B040F5 = {
+			isa = PBXGroup;
+			children = (
+				79FCDDB21B416E0D00B040F5 /* NGOPassCodeView */,
+				79FCDDBF1B416E0D00B040F5 /* NGOPassCodeViewTests */,
+				79FCDDB11B416E0D00B040F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79FCDDB11B416E0D00B040F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79FCDDB01B416E0D00B040F5 /* NGOPassCodeView.framework */,
+				79FCDDBB1B416E0D00B040F5 /* NGOPassCodeViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79FCDDB21B416E0D00B040F5 /* NGOPassCodeView */ = {
+			isa = PBXGroup;
+			children = (
+				79FCDDB51B416E0D00B040F5 /* NGOPassCodeView.h */,
+				79FCDDD51B416EE400B040F5 /* NGOPassCodeView.swift */,
+				79FCDDB31B416E0D00B040F5 /* Supporting Files */,
+			);
+			path = NGOPassCodeView;
+			sourceTree = "<group>";
+		};
+		79FCDDB31B416E0D00B040F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79FCDDB41B416E0D00B040F5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79FCDDBF1B416E0D00B040F5 /* NGOPassCodeViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				79FCDDC21B416E0D00B040F5 /* NGOPassCodeViewTests.swift */,
+				79FCDDC01B416E0D00B040F5 /* Supporting Files */,
+			);
+			path = NGOPassCodeViewTests;
+			sourceTree = "<group>";
+		};
+		79FCDDC01B416E0D00B040F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79FCDDC11B416E0D00B040F5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		79FCDDAD1B416E0D00B040F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FCDDB61B416E0D00B040F5 /* NGOPassCodeView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		79FCDDAF1B416E0D00B040F5 /* NGOPassCodeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79FCDDC61B416E0D00B040F5 /* Build configuration list for PBXNativeTarget "NGOPassCodeView" */;
+			buildPhases = (
+				79FCDDAB1B416E0D00B040F5 /* Sources */,
+				79FCDDAC1B416E0D00B040F5 /* Frameworks */,
+				79FCDDAD1B416E0D00B040F5 /* Headers */,
+				79FCDDAE1B416E0D00B040F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NGOPassCodeView;
+			productName = NGOPassCodeView;
+			productReference = 79FCDDB01B416E0D00B040F5 /* NGOPassCodeView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79FCDDBA1B416E0D00B040F5 /* NGOPassCodeViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79FCDDC91B416E0D00B040F5 /* Build configuration list for PBXNativeTarget "NGOPassCodeViewTests" */;
+			buildPhases = (
+				79FCDDB71B416E0D00B040F5 /* Sources */,
+				79FCDDB81B416E0D00B040F5 /* Frameworks */,
+				79FCDDB91B416E0D00B040F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79FCDDBE1B416E0D00B040F5 /* PBXTargetDependency */,
+			);
+			name = NGOPassCodeViewTests;
+			productName = NGOPassCodeViewTests;
+			productReference = 79FCDDBB1B416E0D00B040F5 /* NGOPassCodeViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79FCDDA71B416E0D00B040F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = andgotravel;
+				TargetAttributes = {
+					79FCDDAF1B416E0D00B040F5 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					79FCDDBA1B416E0D00B040F5 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 79FCDDAA1B416E0D00B040F5 /* Build configuration list for PBXProject "NGOPassCodeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79FCDDA61B416E0D00B040F5;
+			productRefGroup = 79FCDDB11B416E0D00B040F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79FCDDAF1B416E0D00B040F5 /* NGOPassCodeView */,
+				79FCDDBA1B416E0D00B040F5 /* NGOPassCodeViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79FCDDAE1B416E0D00B040F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FCDDB91B416E0D00B040F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79FCDDAB1B416E0D00B040F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FCDDD61B416EE400B040F5 /* NGOPassCodeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FCDDB71B416E0D00B040F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FCDDC31B416E0D00B040F5 /* NGOPassCodeViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79FCDDBE1B416E0D00B040F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79FCDDAF1B416E0D00B040F5 /* NGOPassCodeView */;
+			targetProxy = 79FCDDBD1B416E0D00B040F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		79FCDDC41B416E0D00B040F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79FCDDC51B416E0D00B040F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79FCDDC71B416E0D00B040F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NGOPassCodeView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79FCDDC81B416E0D00B040F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NGOPassCodeView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		79FCDDCA1B416E0D00B040F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NGOPassCodeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79FCDDCB1B416E0D00B040F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NGOPassCodeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79FCDDAA1B416E0D00B040F5 /* Build configuration list for PBXProject "NGOPassCodeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FCDDC41B416E0D00B040F5 /* Debug */,
+				79FCDDC51B416E0D00B040F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79FCDDC61B416E0D00B040F5 /* Build configuration list for PBXNativeTarget "NGOPassCodeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FCDDC71B416E0D00B040F5 /* Debug */,
+				79FCDDC81B416E0D00B040F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79FCDDC91B416E0D00B040F5 /* Build configuration list for PBXNativeTarget "NGOPassCodeViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FCDDCA1B416E0D00B040F5 /* Debug */,
+				79FCDDCB1B416E0D00B040F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79FCDDA71B416E0D00B040F5 /* Project object */;
+}

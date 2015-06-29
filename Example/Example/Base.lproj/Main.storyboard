@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="RVr-OJ-olf">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NGOPassCodeView" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wn7-EG-LAW" userLabel="Title Label">
+                                <rect key="frame" x="174" y="60" width="253" height="36"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nnb-cu-jkF" userLabel="NGOPassCodeView" customClass="NGOPassCodeView" customModule="NGOPassCodeView">
+                                <rect key="frame" x="150" y="275" width="300" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Gek-Uv-wEV"/>
+                                    <constraint firstAttribute="height" constant="50" id="KLc-Ft-g02"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Entered password is:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="38h-Ar-Hbh" userLabel="Desc Label">
+                                <rect key="frame" x="206" y="156" width="188" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="38h-Ar-Hbh" firstAttribute="top" secondItem="Wn7-EG-LAW" secondAttribute="bottom" constant="60" id="2Q7-3c-oRF"/>
+                            <constraint firstAttribute="centerX" secondItem="Wn7-EG-LAW" secondAttribute="centerX" id="Bx9-TG-qKw"/>
+                            <constraint firstItem="RVr-OJ-olf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="D6U-72-wBI"/>
+                            <constraint firstItem="Wn7-EG-LAW" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="40" id="GpG-mx-Vsn"/>
+                            <constraint firstAttribute="bottom" secondItem="RVr-OJ-olf" secondAttribute="bottom" id="SGm-hg-6AX"/>
+                            <constraint firstAttribute="centerY" secondItem="Nnb-cu-jkF" secondAttribute="centerY" id="YaB-3f-fq9"/>
+                            <constraint firstAttribute="centerX" secondItem="38h-Ar-Hbh" secondAttribute="centerX" id="ayK-DO-xYh"/>
+                            <constraint firstItem="RVr-OJ-olf" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="jV6-yR-pR0"/>
+                            <constraint firstAttribute="centerX" secondItem="Nnb-cu-jkF" secondAttribute="centerX" id="kYV-nw-gE5"/>
+                            <constraint firstAttribute="trailing" secondItem="RVr-OJ-olf" secondAttribute="trailing" id="uoa-qj-eg0"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <outlet property="descLabel" destination="38h-Ar-Hbh" id="q8Y-eU-th3"/>
+                        <outlet property="passCodeView" destination="Nnb-cu-jkF" id="FaE-4W-QSs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background" width="375" height="667"/>
+    </resources>
+</document>
