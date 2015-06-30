@@ -56,13 +56,8 @@ public class NGOPassCodeView: UIView, UITextFieldDelegate {
     
     public override func awakeFromNib() {
         super.awakeFromNib()
-        self.scrollView = UIScrollView(frame: self.bounds)
         self.setupScrollView()
-        self.addSubview(self.scrollView)
-        
-        self.textField = UITextField(frame: self.bounds)
         self.setupTextField()
-        self.addSubview(self.textField)
     }
     
     public override func layoutSubviews() {
@@ -73,9 +68,13 @@ public class NGOPassCodeView: UIView, UITextFieldDelegate {
     //MARK: - Setup UI
     
     private func setupScrollView() {
+        
+        self.scrollView.removeFromSuperview()
+        self.scrollView = UIScrollView(frame: self.bounds)
+        self.addSubview(self.scrollView)
         self.scrollView.subviews.map{ $0.removeFromSuperview() }
         
-        let viewWidth       = CGRectGetWidth(self.frame) / CGFloat(self.numberOfDigits)
+        let viewWidth       = CGRectGetWidth(self.bounds) / CGFloat(self.numberOfDigits)
         let passCharacters  = count(self.textField.text)
         
         for (index, element) in enumerate(0...self.numberOfDigits - 1) {
@@ -95,6 +94,9 @@ public class NGOPassCodeView: UIView, UITextFieldDelegate {
     }
     
     private func setupTextField() {
+        self.textField.removeFromSuperview()
+        self.textField = UITextField(frame: self.bounds)
+        self.addSubview(self.textField)
         self.textField.delegate             = self
         self.textField.textColor            = UIColor.clearColor()
         self.textField.tintColor            = UIColor.clearColor()

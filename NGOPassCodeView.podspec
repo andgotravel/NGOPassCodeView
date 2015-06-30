@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name        	= "NGOPassCodeView"
-  s.version      	= "1.0"
+  s.version      	= "1.1"
   s.summary      	= "A handy view for handling masked password input. Written in Swift."
   s.homepage     	= "https://www.andgo.travel"
   # s.screenshots 	= "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
