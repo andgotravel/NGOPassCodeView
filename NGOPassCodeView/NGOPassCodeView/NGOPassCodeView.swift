@@ -72,7 +72,7 @@ public class NGOPassCodeView: UIView, UITextFieldDelegate {
         self.scrollView.removeFromSuperview()
         self.scrollView = UIScrollView(frame: self.bounds)
         self.addSubview(self.scrollView)
-        self.scrollView.subviews.map{ $0.removeFromSuperview() }
+        self.scrollView.userInteractionEnabled = false
         
         let viewWidth       = CGRectGetWidth(self.bounds) / CGFloat(self.numberOfDigits)
         let passCharacters  = count(self.textField.text)
@@ -81,6 +81,7 @@ public class NGOPassCodeView: UIView, UITextFieldDelegate {
             
             let frame   = CGRectMake(CGFloat(index) * viewWidth, 0, viewWidth, CGRectGetHeight(self.bounds))
             var view    = UIView(frame: frame)
+            view.userInteractionEnabled = false
             view.backgroundColor = UIColor.clearColor()
             
             if index < passCharacters {
